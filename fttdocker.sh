@@ -53,7 +53,8 @@ do
 	then 
 		docker rmi -f $(docker images -aq) >/dev/null
 		echo "sucesso"
-	else
+	elif [ $entrada -ne 9 ]
+	then 
 		echo "Opcao $entrada nao encontrada"
 	fi
 done
