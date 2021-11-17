@@ -15,8 +15,7 @@ apt-get install -y curl
 - **Docker**
 ``` bash
 curl -fsSl https://get.docker.com/ | sh
-docker --version  
-  * se nao foi usa: /etc/init.d/docker start  
+docker --version
 ```
 - **Docker Composer**
 ``` bash
