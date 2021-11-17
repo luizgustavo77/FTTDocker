@@ -3,23 +3,32 @@
 
 ---
 
-# 🧩 **Usando**
-> Abaixo o passo a passo para usar o componente
+# ⚙️ **Instalando**
+> Abaixo o passo a passo para preparar o servidor
 
-1. Use uma distribuição DEBIAN do linux como o UBUNTU
-**INSTALANDO**
-**Install**
+- **Dependencias**
+``` bash
+apt-get install -y vim
+apt-get install -y curl
+```
+
+- **Docker**
 ``` bash
 curl -fsSl https://get.docker.com/ | sh
 docker --version  
   * se nao foi usa: /etc/init.d/docker start  
 ```
-* ***Docker Composer***  
+- **Docker Composer**
 ``` bash
 sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose  
 chmod +x /usr/local/bin/docker-compose  
 docker-compose --version    
 ```
+
+---
+
+# 🧩 **Usando**
+> Abaixo o passo a passo para usar o componente
 
 ---
 
