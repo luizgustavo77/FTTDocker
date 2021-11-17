@@ -1,5 +1,5 @@
 # **FTTDocker**
-> Gerenciador de Docker com ShellScript
+> Gerenciador de Docker com ShellScript para servidores sem interface
 
 ---
 
@@ -29,6 +29,8 @@ docker-compose --version
 
 # 🧩 **Usando**
 > Abaixo o passo a passo para usar o componente
+
+
 
 ---
 
