@@ -16,13 +16,43 @@ do
 	read entrada
 
 	if [ $entrada -eq 1 ] 
-		then
-		docker container ls
+	then
+		docker container ls -a
 	elif [ $entrada -eq 2 ] 
-		then
+	then
 		echo "digite a imagem"
-		read imagem
-		docker run $imagem
+		read imagemcreate
+		docker run $imagemcreate >/dev/null
+		echo "sucesso"
+	elif [ $entrada -eq 3 ]
+	then
+		echo "digite o id do container"
+		read idcontainer
+		docker rm $idcontainer >/dev/null
+		echo "sucesso"
+	elif [ $entrada -eq 4 ]
+	then
+		docker rm -vf $(docker ps -a -q) >/dev/null
+		echo "sucesso"
+	elif [ $entrada -eq 5 ]
+	then 
+		docker images
+	elif [ $entrada -eq 6 ]
+	then
+		echo "digite a imagem"
+		read imagempull
+		docker pull $imagempull >/dev/null
+		echo "sucesso"
+	elif [ $entrada -eq 7 ]
+	then 
+		echo "digite o id da imagem"
+		read idimagem
+		docker image rm $idimagem >/dev/null
+		echo "sucesso"
+	elif [ $entrada -eq 8 ]
+	then 
+		docker rmi -f $(docker images -aq) >/dev/null
+		echo "sucesso"
 	else
 		echo "Opcao $entrada nao encontrada"
 	fi
