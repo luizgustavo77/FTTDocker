@@ -48,7 +48,7 @@ fttdocker
 - Integração
 <img src="https://raw.githubusercontent.com/luizgustavo77/FTTDocker/main/integracaoGrafana.png">
 
-- Dashboard
+- Dashboard [Link](https://jhonatancandido.grafana.net/dashboard/snapshot/2qziH2lMcfInRFuaFSkxs9WPf5DtGT9y?orgId=0&refresh=30s)
 <img src="https://raw.githubusercontent.com/luizgustavo77/FTTDocker/main/dashboardGrafana.png">
 
 ---
