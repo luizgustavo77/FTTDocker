@@ -1,5 +1,5 @@
 # **FTTDocker**
-> Gerenciador de Docker com ShellScript para servidores sem interface
+> Gerenciador de Docker com ShellScript para servidores sem interface e monitoramento com Grafana
 
 <img src="https://miro.medium.com/max/1000/1*E8IgOSkMTpBRs0w0-Zsx2g.gif">
 
@@ -44,7 +44,12 @@ fttdocker
 # **Monitoramento com Grafana**
 > Com o Grafana Cloud nos usamos as configurações de Onboarding para criar uma integração com o Linux Server (VM)
 
+# 🧩 **Usando**
+- Integração
+<img src="https://raw.githubusercontent.com/luizgustavo77/FTTDocker/main/integracaoGrafana.png">
 
+- Dashboard
+<img src="https://raw.githubusercontent.com/luizgustavo77/FTTDocker/main/dashboardGrafana.png">
 
 ---
 
