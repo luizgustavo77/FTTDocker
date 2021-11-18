@@ -41,10 +41,10 @@ fttdocker
 
 ---
 
-# **Monitoramento com Grafana**
+# 📈 **Monitoramento com Grafana**
 > Com o Grafana Cloud nos usamos as configurações de Onboarding para criar uma integração com o Linux Server (VM)
 
-# 🧩 **Usando**
+# 🔧 **Usando**
 - Integração
 <img src="https://raw.githubusercontent.com/luizgustavo77/FTTDocker/main/integracaoGrafana.png">
 
