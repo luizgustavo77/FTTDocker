@@ -20,13 +20,6 @@ apt-get update -y
 curl -fsSl https://get.docker.com/ | sh
 docker --version
 ```
-- **Docker Composer**
-``` bash
-sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose  
-chmod +x /usr/local/bin/docker-compose  
-docker-compose --version    
-```
-
 ---
 
 # 🧩 **Usando**
