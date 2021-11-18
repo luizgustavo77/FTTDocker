@@ -31,6 +31,7 @@ docker-compose --version
 > Abaixo o passo a passo para usar o componente
 
 ``` bash
+sudo su
 curl -L https://raw.githubusercontent.com/luizgustavo77/FTTDocker/main/fttdocker.sh -o /usr/local/bin/fttdocker
 chmod +x /usr/local/bin/fttdocker
 fttdocker
