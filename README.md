@@ -48,7 +48,7 @@ fttdocker
 
 ## 🙋🏻 **Membros**
 
-- [Luiz Gustavo](https://github.com/luizgustavo77) - criador
-- [Thiago](https://github.com/thiagofernandes101)
-- [Jhonatan](https://github.com/JhonatanMatos)
-- [Paulo](https://github.com/paulopatrocinio)
+- [Luiz Gustavo 082170039](https://github.com/luizgustavo77) - criador
+- [Thiago 082170029](https://github.com/thiagofernandes101)
+- [Jhonatan 082170016](https://github.com/JhonatanMatos)
+- [Paulo 082170024](https://github.com/paulopatrocinio)
